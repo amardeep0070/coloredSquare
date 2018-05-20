@@ -1,24 +1,23 @@
 body {
-    /*padding: 10px;*/
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 a {
     color: #00B7FF;
 }
-body > ul{
+
+body > ul {
     padding: 0px;
 }
 
 .grid-container-colors {
-    padding: 10px ;
-    ;
+    padding: 10px;;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(auto-fill, 50px);
     height: 800px;
     background: black;
-    /*box-shadow:  10px 10px grey;*/
     overflow-y: scroll;
 
 }
@@ -29,7 +28,7 @@ body > ul{
 }
 
 .grid-container-colors::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 .grid-container-colors::-webkit-scrollbar-thumb {
@@ -47,7 +46,6 @@ body > ul{
     background: darkgrey;
 }
 
-
 .grid-item {
 
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -64,11 +62,9 @@ body > ul{
 
 .grid-container-canvas {
     display: grid;
-grid-template-columns: auto auto auto ;
-/*background-color: #2196F3;/*/
-padding: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
     height: 800px;
-    /*box-shadow:  10px 10px grey;*/
     overflow-y: scroll;
 }
 
@@ -82,8 +78,8 @@ padding: 20px;
     grid-column-gap: 0%;
     grid-column-gap: 25px;
     padding: 10px;
-/background-color: #2196F3;/
-padding: 10px;
+/ background-color: #2196F3;
+/ padding: 10 px;
 }
 
 .canvasSizeGrid {
@@ -102,6 +98,7 @@ padding: 10px;
 .rightBorder {
     border-right: 1px solid #DDD;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -110,7 +107,6 @@ ul {
     background-color: #333;
 }
 
-
 li a {
     display: block;
     color: white;
@@ -118,6 +114,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -129,8 +126,8 @@ li a {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -145,9 +142,11 @@ li a {
     color: white;
     align-content: center;
 }
-.modal-content  li {
+
+.modal-content li {
     padding: 5px;
 }
+
 .canvasSizeGrid div img {
     width: 20%;
 }
