@@ -1,9 +1,9 @@
 //global vars
-totalColors = 0;
-initialNumberOfColors = 8;
-canvasSize = 3;
-selectedColor = undefined;
-canvas = [];
+let totalColors = 0;
+let initialNumberOfColors = 8;
+let canvasSize = 3;
+let selectedColor = undefined;
+let canvas = [];
 
 window.onload = function() {
     init();
